@@ -4,10 +4,78 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css"  href="./style.css">
 </head>
 <body>
-    <img src="../01.png"
-    width=full
-    height=auto />
+    <header>
+        
+
+
+    </header>
+
+    <!--breaking the main components into three seperate boxes with flexbox
+    causing three items to be stacked one on top of each other-->
+
+    <main class="banners">
+
+        <!-- each item will then be it's own container 
+            which will use flexbox with primary axis vertical
+            and each item going horizontal -->
+
+        <div class="Title">
+            <h1> My amazing <br> Website </h1> 
+            <!--I spent a long time trying to use flexbox to force a line break 
+                rather than the much simpler HTML solution-->
+            <img src="../02.png" width="400em"> <!--placeholder and useful when working-->  
+        
+        </div>
+
+        <div class="info-panel">    
+
+            <ul>
+                <li class="item"> <img src="./images/red-panda-1.jpg" width="200rem" height="auto" > 
+                <p> A cute red panda! </p> </li>
+                <li class="item"> <img src="./images/little-panda-2.jpg" width="200rem" > 
+                <p> Another cute red panda!</p></li>
+                <li class="item"> <img src="./images/panda-3.jpg" width="200rem">
+                <p> A third cute panda! </p></li>
+                <li class="item"> <img src="./images/animals-4.jpg" width="200rem">
+                <p> Oh! oh dear! This isn't supposed to be here.</p></li>
+
+
+            </ul>
+        </div>
+
+        <div class="quote">
+
+            <p> This is a mega insperational quote. 
+                And you may think it's too long, but it isn't
+                It fills all the space i needed 
+            </p>
+            <h3> Me, today's date, VScode</h3>
+
+
+        </div>
+
+        <div class="Donate">
+
+            <h2> DONATE NOW! </h2>
+            <p> please send us some money for the pandas </p>
+            <button> Donate </button>
+
+        </div>
+
+
+        
+
+    </main>
+
+
+    <footer>
+
+
+
+
+    </footer>
 </body>
 </html>
