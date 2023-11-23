@@ -1,6 +1,6 @@
-body{
+*{
     
-
+margin: 0%;
 
 }
 
@@ -31,8 +31,8 @@ header h2{
 .banners{
     display: flex;
     flex-direction: column;
-    justify-content:stretch;
-    align-items:normal;
+    
+    
    
 
 
@@ -42,43 +42,65 @@ header h2{
 .Title{
     display:flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items:;
     flex-wrap: wrap;
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
     padding: 2rem 10rem;
-
+    padding-bottom: 5rem;
     
 }
 
 .Title div{
-    background-color: blueviolet;
-    flex-shrink: 3 ;
-    align-self: center;
-    max-width: 30rem;
     display:flex;
     flex-direction: column;
+    
+    justify-content:space-between;
+   
+    align-items: flex-start;
+    max-width: 30rem;
+    
+    
+}
+
+.Title p{
+    font-size: 24px;
+    
+    margin:0%;
 }
 
 
 .Title h1{
-    background-color: blueviolet;
+   
     flex-shrink: 3 ;
     align-self: center;
     max-width: 30rem;
+    margin:0%;
 
+}
+
+.Title button{
+    align-self: flex-start;
+    margin:0%;
 }
 
 .Title img{
     background-color: brown;
-    
+    border: #3882f6;
+    border-radius: 25px;
+    border-width: .2rem;
     flex-shrink: 1;
+    border-style: outset;
+    height:max-content;
 }
+
+
+
 
 /* colors used for learning purposes*/
 .info-panel{
-    background-color: aqua;
+    
     
 }
 
@@ -159,13 +181,13 @@ ul li {
     
 }
 
-.Donate button {
+button {
     border-radius: 5px;
     border-color: #f9faf8;
     background-color: #3882f6;
     color: #f9faf8;
     border-width: .1rem;
-    padding: .5rem 1rem;
+    padding: .5rem 3rem;
     font-size: 24px;
 
 }
